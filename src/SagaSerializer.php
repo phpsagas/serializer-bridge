@@ -1,6 +1,6 @@
 <?php
 
-namespace PhpSagas\SymfonySerializerBridge;
+namespace PhpSagas\SerializerBridge;
 
 use PhpSagas\Orchestrator\BuildEngine\SagaDataInterface;
 use PhpSagas\Orchestrator\ExecutionEngine\SagaSerializerInterface;
