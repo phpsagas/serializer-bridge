@@ -1,0 +1,31 @@
+{
+  "name": "phpsagas/serializer-bridge",
+  "type": "library",
+  "description": "The implementation of saga serializers",
+  "keywords": ["serializer"],
+  "homepage": "https://github.com/phpsagas/serializer-bridge",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Oleg Filatov",
+      "email": "phpsagas@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1 || ^8.0",
+    "phpsagas/orchestrator": "dev-master",
+    "symfony/serializer": "^4.0 | ^5.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpSagas\\SerializerBridge\\": "src/"
+    }
+  },
+  "scripts": {
+    "cs": "./vendor/bin/phpcs"
+  }
+}
