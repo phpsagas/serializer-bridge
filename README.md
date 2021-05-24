@@ -14,7 +14,7 @@
 
 ## About package
 This component is the part of [phpsagas framework](https://github.com/phpsagas).  
-The package contains implementation of saga instance repository based on [symfony/serializer](https://packagist.org/packages/symfony/serializer).
+The package contains implementation of saga serializers based on [symfony/serializer](https://packagist.org/packages/symfony/serializer).
 
 ## Installation
 You can install the package using [Composer](https://getcomposer.org/):
