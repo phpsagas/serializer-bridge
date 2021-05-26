@@ -2,8 +2,8 @@
 
 namespace PhpSagas\SerializerBridge;
 
-use PhpSagas\Orchestrator\Command\CommandDataInterface;
-use PhpSagas\Orchestrator\ExecutionEngine\MessagePayloadSerializerInterface;
+use PhpSagas\Contracts\CommandDataInterface;
+use PhpSagas\Contracts\MessagePayloadSerializerInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 
 /**

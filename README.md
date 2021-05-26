@@ -9,7 +9,7 @@
 
 ## Requirements  
 - php: >= 7.1
-- [phpsagas/orchestrator](https://github.com/phpsagas/orchestrator)
+- [phpsagas/contracts](https://github.com/phpsagas/contracts)
 - symfony/serializer: ^4.0 | ^5.0
 
 ## About package

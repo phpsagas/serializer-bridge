@@ -2,8 +2,8 @@
 
 namespace PhpSagas\SerializerBridge;
 
-use PhpSagas\Orchestrator\BuildEngine\SagaDataInterface;
-use PhpSagas\Orchestrator\ExecutionEngine\SagaSerializerInterface;
+use PhpSagas\Contracts\SagaDataInterface;
+use PhpSagas\Contracts\SagaSerializerInterface;
 use Symfony\Component\Serializer\SerializerInterface;
 
 /**
