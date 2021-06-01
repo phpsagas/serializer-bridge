@@ -5,7 +5,6 @@
   "keywords": ["serializer"],
   "homepage": "https://github.com/phpsagas/serializer-bridge",
   "license": "MIT",
-  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Oleg Filatov",
@@ -15,7 +14,7 @@
   "require": {
     "php": "^7.1 || ^8.0",
     "symfony/serializer": "^4.0 | ^5.0",
-    "phpsagas/contracts": "dev-main"
+    "phpsagas/contracts": "^0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.3"
